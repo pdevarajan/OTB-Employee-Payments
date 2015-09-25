@@ -1,5 +1,5 @@
 # OTB-Employee-Payments
-OTB Employee Payments
+OTB Employee Payments<br /><br />
 •	Please update the connection string “SQLServerConnectionString” in the ConsoleHost and UnitTests projects’ app.config file to point at the correct SQL Server.<br />
 •	The solution consists of three projects the OTB.EmployeePayments.ConsoleHost(Console App), OTB.EmployeePayments.Core(Core Library), OTB.EmployeePayments.UnitTests(Unit Tests)<br />
 •	Entity Framework with code first approach is used in the project. The database is currently always recreated and repopulated with data every time the app is run. This can be altered to support database changes using migrations.<br />
